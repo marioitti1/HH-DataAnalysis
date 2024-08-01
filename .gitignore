@@ -1,4 +1,6 @@
 /.venv
 
-*/__cache__
+*/__cache__/
+*/__pycache__/
+
 /data
