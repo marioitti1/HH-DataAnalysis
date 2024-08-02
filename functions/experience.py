@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+
 def experience_by_month(line):
     """
     Преобразует значение Опыт работы количество месяцев.\n
