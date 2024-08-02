@@ -6,13 +6,15 @@ def split_gender_age(line:str):
     
     Например:
     Ввод - Мужчина , 39 лет , родился 27 ноября 1979
-    Вывод - Series{
+    Вывод - 
         'Пол': 'М', 
         'Возраст': 39
-        }
 
     Args:
         line (str): данные из столбца Пол_Возраст
+        
+    Returns:
+        pd.Series: columns=['Пол', 'Возраст']     
     """
     
     gender_age = line.split(' , ')
